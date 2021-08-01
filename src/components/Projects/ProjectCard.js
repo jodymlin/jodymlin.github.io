@@ -74,7 +74,7 @@ function ProjectCard({ classes, data }) {
       </div>
 
       <div className={classes.description}>
-        <Typography>{description}</Typography>
+        <Typography dangerouslySetInnerHTML={{__html: description}}/>
       </div>
     </div>
   )

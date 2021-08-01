@@ -14,7 +14,7 @@ function FunFact({ classes, title, description }) {
   return (
     <>
       <Typography className={classes.title}>{title}</Typography>
-      <Typography>{description}</Typography>
+      <Typography dangerouslySetInnerHTML={{__html: description}}/>
     </>
   )
 }

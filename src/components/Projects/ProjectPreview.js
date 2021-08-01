@@ -25,8 +25,8 @@ const projects = [
     github: "https://github.com/uclaacm/hack.uclaacm.com",
     media: hackWebsite,
     mediaType: "img",
-    description: `UCLA ACM Hack's website built 
-        with React.js and Gatsby. 
+    description: `<a href='https://hack.uclaacm.com/'>UCLA ACM Hack's website</a> 
+        built with React.js and Gatsby. 
         Check it out for updates on Hack's events and 
         README's from past workshops!`,
   },
